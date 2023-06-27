@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+main{
+    position: relative;
+    top: 30px;
+}
+
+.content-one{
+    width: 100%;
+    height: 30%;
+}
+
+.content-portada{
+    width: 100%;
+    height: 450px;
+    background-image: url(https://cdn.pixabay.com/photo/2019/06/04/07/46/lilacs-4250869_1280.jpg);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:1500px) {
+    .content-portada{
+        background-size: 2000px;
+    }
+}
+
+.content-item1{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+  
+}
+
+.content-item1 h4{
+    color: rgb(105, 83, 125);
+    font-size: 60px;
+    font-weight: 100;
+}
+.content-item1 h3{
+    color: rgb(66, 52, 72);
+    font-size: 60px;
+    
+}
+.content-item1 h2{
+    color:rgb(94, 81, 116);
+    font-size: 40px;
+    font-weight: 100;
+}
+
+@media screen and (max-width:800px) {
+    .content-item1{
+        width: 100%;
+    }
+    
+}
+
+.content-details{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-item2{
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+}
+
+.icon-spin2, .icon-star, .icon-mail-alt{
+    color:#a898b9;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.content-three{
+    width:auto;
+    background: rgb(166, 142, 173);
+    padding: 40px;
+}
+
+.content-module{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    .content-module{
+        width: 100%;
+    }
+    
+}
+h3{
+    color:rgb(170, 142, 176);
+}
+
+.content-module img{
+    margin-top: 40px;
+    margin-left: 25px;
+    transition: all 300ms;
+}
+
+.content-module img:hover{
+    transform: rotate(-10deg);
+    transition: all 300ms;
+}
+
+.content-for{
+    width: 100%;
+    background: rgba(199, 183, 212, 0.753);
+}
+
+.content-item3{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.content-item3 h4{
+    text-align: center;
+    margin-top: 20px;
+    color: #000000;
+    font-weight: 500;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.content-item3 img{
+    width: 100%;
+    max-width: 700px;
+    margin-top: 30px;
+}
+
+.content-item4{
+    width: 90%;
+    max-width: 800px;
+    padding: 50px;
+    margin: auto;
+    color: rgb(184, 165, 195);
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.content-item4 h4{
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.content-item4 p{
+    margin-top: 20px;
+}
+
+.menu{
+    max-width: 250px;
+    width: 100%;
+    position: absolute;
+    margin-left: 35%
+}
+.item{
+    height: 46px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    font-size: 18px;
+    line-height: 46px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #e8e1eb;
+    font-family: sans-serif;
+    display: block;
+}
+
+.back-menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 46px;
+    width: 100%;
+    background: #9779a8;
+    border-radius: 50px;
+    z-index: 2;
+    transition: 0.3s;
+}
+
+.container-all b{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+footer{
+    width: 100%;
+    float: right;
+    background: #d4c7e5;
+    color: rgb(29, 3, 3);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px;
+    box-sizing: border-box;
+    }
